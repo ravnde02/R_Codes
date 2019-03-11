@@ -27,5 +27,5 @@ Posdef <- function (n, ev = runif(n, 0, 10))
 pdmat <- Posdef(n=2, ev=1:2)
 #eigen(pdmat)$val
 
-pdmat
+pdmat2 <- pdmat*1000
 ```
